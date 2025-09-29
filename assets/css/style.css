@@ -3,8 +3,9 @@
 	--primary-color: #a8cbb7;
 	--secondary-color: #f4ebd0;
 	--accent-color: #ff6b6b;
-
+	--primary-dark: #333333;
 	--content-padding: 0.75rem;
+	--section-padding: 10rem;
 }
 *,
 *::after,
@@ -18,7 +19,7 @@ body {
 	font-family: Montserrat, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
 		sans-serif;
 	font-size: 1.125rem;
-	color: #333333;
+	color: var(--primary-dark);
 	background: var(--secondary-color);
 }
 h1,
@@ -30,6 +31,9 @@ h6 {
 	font-family: Merriweather, 'Times New Roman', Times, serif;
 }
 h1 {
+	font-size: 2.5rem;
+}
+h2 {
 	font-size: 2.5rem;
 }
 
@@ -57,7 +61,8 @@ picture {
 	padding: var(--content-padding);
 }
 .header-cta,
-.hero-cta {
+.hero-cta,
+.about-cta {
 	color: var(--secondary-color);
 	text-decoration: none;
 	text-transform: capitalize;
@@ -66,6 +71,10 @@ picture {
 	padding-block: 1rem;
 	padding-inline: 1.5rem;
 	display: inline-block;
+}
+.about-cta {
+	color: var(--primary-dark);
+	border: 1px solid var(--primary-dark);
 }
 .header-cta {
 	display: none;
@@ -118,6 +127,16 @@ picture {
 }
 .mobile-menu-toggle:hover {
 	cursor: pointer;
+}
+/* About Section - Homepage */
+#about {
+	padding-block: var(--section-padding);
+}
+.about-content {
+	text-align: center;
+}
+.about-content > * {
+	margin-block-end: 2rem;
 }
 
 /* Media Queries */
