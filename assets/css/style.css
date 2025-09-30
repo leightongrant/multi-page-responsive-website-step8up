@@ -191,6 +191,20 @@ picture {
 	font-size: 2.5rem;
 }
 
+/* Reviews */
+#reviews {
+	padding-block: var(--section-padding);
+}
+.reviews-content {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 2rem;
+}
+.review-card-image img {
+	width: 100%;
+	object-fit: cover;
+}
+
 /* Media Queries */
 
 /* Small */
@@ -203,6 +217,9 @@ picture {
 		background-size: cover;
 		background-position: center;
 		background-repeat: no-repeat;
+	}
+	.reviews-content {
+		grid-template-columns: 1fr 1fr;
 	}
 }
 
@@ -226,6 +243,9 @@ picture {
 	h1 {
 		font-size: 4rem;
 	}
+	.reviews-content {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
 }
 
 /* Large */
@@ -237,6 +257,9 @@ picture {
 	.activities-content {
 		display: grid;
 		grid: auto-flow / 1fr 1fr;
+	}
+	.reviews-content {
+		grid-template-columns: 1fr 1fr 1fr 1fr;
 	}
 }
 
