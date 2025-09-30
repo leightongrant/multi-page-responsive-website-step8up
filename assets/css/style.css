@@ -205,6 +205,47 @@ picture {
 	object-fit: cover;
 }
 
+/* Newsletter */
+#newsletter {
+	padding-block: var(--section-padding);
+	background: whitesmoke;
+}
+.newsletter-content {
+	text-align: center;
+}
+.newsletter-header {
+	margin-block-end: 3rem;
+}
+.newsletter-input {
+	border: 2px solid var(--primary-dark);
+	width: fit-content;
+	margin: auto;
+	border-radius: 5rem;
+	padding: 0.1rem;
+	inline-size: 80%;
+	display: flex;
+	flex-wrap: nowrap;
+	/* min-inline-size: 330px; */
+	overflow: hidden;
+}
+.newsletter-input input {
+	border: none;
+	outline: none;
+	background: whitesmoke;
+	padding: 1rem;
+	border-radius: 5rem;
+	flex-grow: 1;
+	flex-shrink: 1;
+}
+.newsletter-input button {
+	padding: 1.5rem 4rem;
+	border-radius: 5rem;
+	margin: auto;
+	background: var(--primary-dark);
+	color: var(--secondary-color);
+	flex-shrink: 1;
+}
+
 /* Media Queries */
 
 /* Small */
