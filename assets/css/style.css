@@ -21,6 +21,7 @@ body {
 	font-size: 1.125rem;
 	color: var(--primary-dark);
 	background: var(--secondary-color);
+	min-inline-size: 360px;
 }
 h1,
 h2,
@@ -179,7 +180,7 @@ picture {
 
 .activities-items {
 	display: grid;
-	grid-template-columns: auto auto auto;
+	grid-template-columns: auto;
 	gap: 3rem;
 }
 .activities-item {
@@ -262,6 +263,9 @@ picture {
 	.reviews-content {
 		grid-template-columns: 1fr 1fr;
 	}
+	.activities-items {
+		grid-template-columns: auto auto;
+	}
 }
 
 /* Medium */
@@ -286,6 +290,9 @@ picture {
 	}
 	.reviews-content {
 		grid-template-columns: 1fr 1fr 1fr;
+	}
+	.activities-items {
+		grid-template-columns: auto auto auto;
 	}
 }
 
