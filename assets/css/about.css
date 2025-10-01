@@ -1,28 +1,8 @@
 /* Banner */
-#banner {
-	block-size: 400px;
-	background: url('../images/about-banner.webp');
-	background-size: cover;
-	background-position: bottom;
+.banner {
+	background-image: url('../images/about-banner.webp');
 }
-.banner-content {
-	position: relative;
-	top: 12rem;
-}
-.banner-title {
-	font-family: Merriweather, 'Times New Roman', Times, serif;
-	color: var(--primary-dark);
-	font-size: 2.5rem;
-	font-weight: 500;
-}
-.breadcrumb a {
-	text-decoration: none;
-	color: var(--primary-dark);
-	font-weight: 500;
-}
-.breadcrumb a:hover {
-	color: var(--primary-dark-hover);
-}
+
 /* About Content */
 #about-page {
 	background: var(--primary-light);
@@ -74,12 +54,6 @@
 
 /* Medium */
 @media (min-width: 768px) {
-	.banner-title {
-		font-size: 4rem;
-	}
-	.banner-content {
-		top: 10rem;
-	}
 	.about-page-content-row-1 {
 		grid-template-areas: 'image info';
 		display: grid;

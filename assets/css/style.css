@@ -4,6 +4,7 @@
 	--secondary-color: #f4ebd0;
 	--accent-color: #ff6b6b;
 	--primary-light: #f5f5f5;
+	--primary-light-hover: #f5f5f5aa;
 	--primary-dark: #333333;
 	--primary-dark-hover: #333333aa;
 	--content-padding: 0.75rem;
@@ -67,6 +68,7 @@ picture {
 .site-header {
 	position: fixed;
 	min-inline-size: 100%;
+	z-index: 3;
 }
 .header-content {
 	display: flex;
@@ -106,6 +108,13 @@ picture {
 	display: flex;
 	gap: 1rem;
 	list-style: none;
+}
+.primary-nav ul li a {
+	font-size: 1rem;
+	font-weight: 500;
+}
+.primary-nav ul li a:hover {
+	color: var(--primary-light-hover);
 }
 .logo img {
 	min-inline-size: 5.5rem;
@@ -149,6 +158,45 @@ picture {
 .mobile-menu-toggle:hover {
 	cursor: pointer;
 }
+/* Banner */
+.banner {
+	block-size: 400px;
+	background: var(--primary-dark);
+	background-size: cover;
+	background-position: bottom;
+}
+.banner::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	inline-size: 100%;
+	block-size: 400px;
+	background-color: #33333355;
+	z-index: 1;
+}
+.banner-content {
+	position: relative;
+	top: 12rem;
+	z-index: 2;
+}
+.banner-title {
+	font-family: Merriweather, 'Times New Roman', Times, serif;
+	color: var(--primary-light);
+	font-size: 2.5rem;
+	font-weight: 500;
+}
+.breadcrumb {
+	color: var(--primary-light);
+}
+.breadcrumb a {
+	text-decoration: none;
+	font-weight: 500;
+	color: var(--primary-light);
+}
+.breadcrumb a:hover {
+	color: var(--primary-light-hover);
+}
+
 /* About Section - Homepage */
 #about {
 	padding-block: var(--section-padding);
@@ -350,6 +398,12 @@ footer h3 {
 	}
 	.activities-items {
 		grid-template-columns: auto auto auto;
+	}
+	.banner-title {
+		font-size: 4rem;
+	}
+	.banner-content {
+		top: 10rem;
 	}
 }
 
