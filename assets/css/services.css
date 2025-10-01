@@ -23,6 +23,9 @@
 	display: grid;
 	align-items: center;
 }
+.services-page-content-row {
+	margin-block-end: 4rem;
+}
 
 /* Medium and up*/
 @media (min-width: 768px) {
