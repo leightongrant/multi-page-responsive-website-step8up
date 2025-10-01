@@ -25,6 +25,9 @@ body {
 	background: var(--secondary-color);
 	min-inline-size: 360px;
 }
+span {
+	display: block;
+}
 h1,
 h2,
 h3,
