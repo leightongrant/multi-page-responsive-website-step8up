@@ -2,3 +2,36 @@
 .banner {
 	background-image: url(../images/services-banner.webp);
 }
+/* Services */
+#services-page {
+	background: var(--primary-light);
+	padding-block: var(--section-padding);
+}
+
+.row-img {
+	object-fit: cover;
+}
+
+.service-row-img {
+	margin-block-end: 2rem;
+}
+.service-info-title {
+	margin-block-end: 1rem;
+}
+
+.service-row-info {
+	display: grid;
+	align-items: center;
+}
+
+/* Medium and up*/
+@media (min-width: 768px) {
+	.services-page-content-row {
+		display: grid;
+		grid-template-columns: 1fr 4fr;
+		gap: 2rem;
+	}
+	.service-row-img {
+		margin-block-end: 0;
+	}
+}
