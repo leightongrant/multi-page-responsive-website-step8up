@@ -1,0 +1,59 @@
+/* Banner */
+.banner {
+	background-image: url(../images/contact-banner.webp);
+	background-position: top;
+}
+/* Contact Info */
+#contact-page {
+	background: var(--primary-light);
+}
+.contact-info {
+	padding: 2.5rem;
+}
+
+.contact-intro {
+	padding-block: var(--section-padding);
+}
+.contact-intro-content {
+	text-align: center;
+}
+.contact-intro-content > * {
+	margin-block-end: 2rem;
+}
+
+.contact-form {
+	background: var(--secondary-color);
+}
+
+.contact-page-image img {
+	inline-size: 100%;
+	block-size: 100%;
+	object-fit: cover;
+}
+.contacts-header {
+	display: grid;
+	gap: 1.5rem;
+	margin-block-end: 2rem;
+}
+.contacts-header span {
+	font-weight: 500;
+	display: inline;
+}
+.contacts-header ul li {
+	list-style: none;
+}
+
+/* Medium and up*/
+@media (min-width: 768px) {
+	.contact-form-content {
+		display: grid;
+		grid: auto-flow / 1fr 1fr;
+	}
+}
+
+/* Extra Extra Large and up */
+@media (min-width: 1400px) {
+	.contact-info {
+		padding: 5rem 8rem;
+	}
+}

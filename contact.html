@@ -7,10 +7,217 @@
 			content="width=device-width, initial-scale=1.0"
 		/>
 		<link
+			rel="preconnect"
+			href="https://fonts.googleapis.com"
+		/>
+		<link
+			rel="preconnect"
+			href="https://fonts.gstatic.com"
+			crossorigin
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
 			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+			integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link
+			rel="stylesheet"
+			type="text/css"
 			href="./assets/css/style.css"
 		/>
-		<title>Contact Us</title>
+		<link
+			rel="stylesheet"
+			href="./assets/css/contact.css"
+		/>
+		<title>Services</title>
 	</head>
-	<body></body>
+	<body>
+		<header class="site-header">
+			<div class="container-fluid">
+				<div class="header-content">
+					<!-- Logo/Brand -->
+					<div class="logo">
+						<a href="index.html">
+							<img
+								src="./assets/images/logo-light.svg"
+								alt="Company Name"
+								width="150px"
+								height="84.7px"
+							/>
+						</a>
+					</div>
+
+					<!-- Navigation -->
+					<nav class="primary-nav">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="about.html">About</a></li>
+							<li><a href="services.html">Services</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</nav>
+
+					<!-- CTA Button -->
+
+					<a
+						href="contact.html"
+						class="header-cta"
+						type="button"
+						>Book Now</a
+					>
+
+					<!-- Mobile Menu Toggle -->
+					<button
+						class="mobile-menu-toggle"
+						type="button"
+						title="Mobile Menu"
+						name="mobile-menu-toggle"
+					>
+						<i class="fa-solid fa-bars"></i>
+					</button>
+				</div>
+			</div>
+		</header>
+		<main id="contact-page">
+			<!-- Banner -->
+			<section id="banner">
+				<div class="banner">
+					<div class="container">
+						<div class="banner-content">
+							<div>
+								<span class="banner-title">Contact Us</span>
+								<span class="breadcrumb"><a href="/">Home</a> / Contact Us</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Main Content -->
+			<section class="contact-intro">
+				<div class="container">
+					<div class="contact-intro-content">
+						<h2>Please Feel Free To Contact Health Wellness</h2>
+						<p>
+							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis voluptate similique maiores. Aliquid earum sequi laudantium
+							accusamus fugit ad? Dolore, iure? Eum eveniet, saepe enim expedita magnam quisquam voluptatum error!
+						</p>
+					</div>
+				</div>
+			</section>
+			<!-- Contact Form -->
+			<section class="contact-form">
+				<div class="container-fluid p-0">
+					<div class="contact-form-content">
+						<div class="contact-info">
+							<div class="contacts-header">
+								<h2>Get In Touch</h2>
+								<p>
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt eaque nesciunt quaerat illo quia nihil, sint autem accusamus.
+								</p>
+								<ul>
+									<li><span>Address: </span>45 Willow Lane Hampstead London</li>
+									<li><span>Phone: </span>+44 0208 231 5569</li>
+									<li><span>Email: </span>info@healthwellness.com</li>
+								</ul>
+							</div>
+							<form
+								action=""
+								method="post"
+							>
+								<label for="fullname">
+									<span>Fullname:</span>
+									<input
+										type="text"
+										name="fullname"
+										id="fullname"
+										title="Full Name"
+										placeholder="Enter Your Full Name"
+									/>
+								</label>
+								<label for="email">
+									<span>Email:</span>
+									<input
+										type="email"
+										name="email"
+										id="email"
+										title="Email Address"
+										placeholder="Enter your Email"
+									/>
+								</label>
+								<label for="message">
+									<span>Message:</span>
+									<textarea
+										name="message"
+										id="message"
+										rows="2"
+										placeholder="Enter your message"
+										title="Message"
+									></textarea>
+								</label>
+								<button
+									type="submit"
+									name="submit"
+									title="Submit Button"
+								>
+									Submit
+								</button>
+							</form>
+						</div>
+						<div class="contact-page-image">
+							<img
+								src="./assets/images/activities-img.webp"
+								alt="Beautiful Candles"
+							/>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<!-- Footer -->
+		<footer>
+			<div class="container">
+				<div class="footer-content">
+					<div class="quick-links">
+						<h3>Quick Links</h3>
+						<a href="#">About</a>
+						<a href="#">Services</a>
+						<a href="#">Contact</a>
+					</div>
+					<div class="address">
+						<h3>Location</h3>
+						<p class="address-name">Serenity Wellness Studio</p>
+						<p>45 Willow Lane Hampstead London</p>
+						<p>NW3 2PL United Kingdom</p>
+					</div>
+					<div class="social">
+						<h3>Social Media</h3>
+						<p>Follow us on following social platforms</p>
+						<div class="social-icons">
+							<a href="https://facebook.com"><i class="fa-brands fa-square-facebook"></i></a>
+							<a href="https://twitter.com"><i class="fa-brands fa-square-x-twitter"></i></a>
+							<a href="https://instagram.com"><i class="fa-brands fa-square-instagram"></i></a>
+							<a href="https://youtube.com"><i class="fa-brands fa-youtube"></i></a>
+							<a href="https://linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="footer-bottom">
+					<div class="copyright">
+						<i class="fa fa-copyright"></i>
+						<p>2025 Health Wellness</p>
+					</div>
+					<div class="payment">
+						<p>Payment Methods:</p>
+						<i class="fa-brands fa-cc-mastercard"></i><i class="fa-brands fa-cc-visa"></i><i class="fa-brands fa-cc-paypal"></i>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
 </html>

@@ -27,7 +27,10 @@ body {
 	background: var(--secondary-color);
 	min-inline-size: 360px;
 }
-span {
+span,
+input,
+textarea,
+button {
 	display: block;
 }
 h1,
@@ -282,7 +285,6 @@ picture {
 	inline-size: 80%;
 	display: flex;
 	flex-wrap: nowrap;
-	/* min-inline-size: 330px; */
 	overflow: hidden;
 }
 .newsletter-input input {
