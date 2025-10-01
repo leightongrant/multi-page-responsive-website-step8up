@@ -3,6 +3,7 @@
 	--primary-color: #a8cbb7;
 	--secondary-color: #f4ebd0;
 	--accent-color: #ff6b6b;
+	--primary-light: #f5f5f5;
 	--primary-dark: #333333;
 	--primary-dark-hover: #333333aa;
 	--content-padding: 0.75rem;
@@ -182,7 +183,7 @@ picture {
 	height: fit-content;
 	gap: 2.5rem;
 	padding-block: 8rem;
-	background: whitesmoke;
+	background: var(--primary-light);
 }
 
 .activities-items {
@@ -216,7 +217,7 @@ picture {
 /* Newsletter */
 #newsletter {
 	padding-block: var(--section-padding);
-	background: whitesmoke;
+	background: var(--primary-light);
 }
 .newsletter-content {
 	text-align: center;
@@ -239,7 +240,7 @@ picture {
 .newsletter-input input {
 	border: none;
 	outline: none;
-	background: whitesmoke;
+	background: var(--primary-light);
 	padding: 1rem;
 	border-radius: 5rem;
 	flex-grow: 1;
