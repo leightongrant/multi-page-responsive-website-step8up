@@ -48,10 +48,6 @@
 
 /* Media Queries */
 
-/* Small */
-@media (min-width: 576px) {
-}
-
 /* Medium */
 @media (min-width: 768px) {
 	.about-page-content-row-1 {
@@ -64,16 +60,4 @@
 		display: grid;
 		align-items: center;
 	}
-}
-
-/* Large */
-@media (min-width: 992px) {
-}
-
-/* Extra Large */
-@media (min-width: 1200px) {
-}
-
-/* Extra Extra Large */
-@media (min-width: 1400px) {
 }

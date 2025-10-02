@@ -31,6 +31,10 @@
 			type="text/css"
 			href="./assets/css/style.css"
 		/>
+		<script
+			src="./assets/scripts/script.js"
+			defer
+		></script>
 		<title>Home</title>
 	</head>
 	<body>
@@ -328,13 +332,29 @@
 				</div>
 			</section>
 		</main>
+		<!-- Dialog -->
+		<dialog>
+			<button
+				type="button"
+				title="close button"
+				name="close"
+			>
+				<i class="fa-solid fa-xmark"></i>
+			</button>
+			<ul>
+				<li><a href="/">Home</a></li>
+				<li><a href="/about.html">About</a></li>
+				<li><a href="/services.html">Services</a></li>
+				<li><a href="/contact.html">Contact</a></li>
+			</ul>
+		</dialog>
 		<!-- Footer -->
 		<footer>
 			<div class="container">
 				<div class="footer-content">
 					<div class="quick-links">
 						<h3>Quick Links</h3>
-						<a href="/Home"></a>
+						<a href="/">Home</a>
 						<a href="/about.html">About</a>
 						<a href="/services.html">Services</a>
 						<a href="/contact.html">Contact</a>
@@ -369,20 +389,5 @@
 				</div>
 			</div>
 		</footer>
-		<script>
-			const siteHeader = document.querySelector('.site-header')
-			const mobileButton = document.querySelector('.mobile-menu-toggle')
-			const modal = document.getElementById('myModal')
-			const span = document.getElementsByClassName('close')[0]
-
-			window.addEventListener('scroll', () => {
-				const scrollY = window.scrollY
-				if (scrollY > 100) {
-					siteHeader.style.backgroundColor = '#000000ee'
-				} else {
-					siteHeader.style.backgroundColor = 'transparent'
-				}
-			})
-		</script>
 	</body>
 </html>
