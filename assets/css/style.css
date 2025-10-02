@@ -284,6 +284,15 @@ button:hover {
 	width: 100%;
 	object-fit: cover;
 }
+.review-card-review {
+	padding-block: 2rem;
+}
+.review-card-review > * {
+	margin-block-end: 1rem;
+}
+.review-card-review > p:nth-child(2) {
+	font-weight: 400;
+}
 
 /* Newsletter */
 #newsletter {
