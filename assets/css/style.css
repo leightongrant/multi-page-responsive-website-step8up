@@ -104,6 +104,7 @@ dialog {
 	z-index: 5;
 	padding: 2rem 4rem;
 	background: var(--secondary-color);
+	box-shadow: 0 5px 15px var(--primary-dark);
 }
 dialog button {
 	position: absolute;
