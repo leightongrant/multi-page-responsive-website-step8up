@@ -55,6 +55,22 @@ picture {
 	display: block;
 	max-width: 100%;
 }
+button {
+	width: fit-content;
+	background: var(--primary-dark);
+	color: var(--secondary-color);
+	font-weight: 600;
+	letter-spacing: 0.125rem;
+	text-decoration: none;
+	text-transform: capitalize;
+	border-radius: 1.75rem;
+	padding: 1rem 2rem;
+	border: none;
+}
+button:hover {
+	cursor: pointer;
+	background: var(--primary-dark-hover);
+}
 
 /* Utilities */
 .p-0 {
@@ -81,10 +97,7 @@ picture {
 }
 
 /* Call to action */
-.header-cta,
-.hero-cta,
-.about-cta,
-.activities-cta {
+.cta {
 	color: var(--secondary-color);
 	text-decoration: none;
 	text-transform: capitalize;
@@ -93,6 +106,13 @@ picture {
 	padding-block: 1rem;
 	padding-inline: 1.5rem;
 	display: inline-block;
+	font-weight: 600;
+	letter-spacing: 0.125rem;
+	font-size: 1rem;
+}
+.cta:hover {
+	background: var(--primary-dark-hover);
+	color: var(--secondary-color);
 }
 .about-cta,
 .activities-cta {
