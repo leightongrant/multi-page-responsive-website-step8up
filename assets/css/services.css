@@ -27,6 +27,16 @@
 	margin-block-end: 4rem;
 }
 
+.services-intro {
+	padding-block: var(--section-padding);
+}
+.services-intro-content {
+	text-align: center;
+}
+.services-intro-content > * {
+	margin-block-end: 2rem;
+}
+
 /* Medium and up*/
 @media (min-width: 768px) {
 	.services-page-content-row {
