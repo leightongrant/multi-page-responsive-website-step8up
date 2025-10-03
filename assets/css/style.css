@@ -176,7 +176,7 @@ dialog a:hover {
 /* Hero */
 #hero {
 	height: 100vh;
-	background-image: url('/assets/images/hero-image-sm.webp');
+	background-image: url('../images/hero-image-sm.webp');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -422,7 +422,7 @@ footer h3 {
 		max-inline-size: 540px;
 	}
 	#hero {
-		background-image: url('/assets/images/hero-image-md.webp');
+		background-image: url('../images/hero-image-md.webp');
 	}
 	.reviews-content {
 		grid-template-columns: 1fr 1fr;
@@ -492,7 +492,7 @@ footer h3 {
 		max-inline-size: 1140px;
 	}
 	#hero {
-		background-image: url('/assets/images/hero-image-lg.webp');
+		background-image: url('../images/hero-image-lg.webp');
 	}
 }
 
