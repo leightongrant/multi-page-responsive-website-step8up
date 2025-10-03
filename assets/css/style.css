@@ -422,7 +422,7 @@ footer h3 {
 		max-inline-size: 540px;
 	}
 	#hero {
-		background: url('/assets/images/hero-image-md.webp');
+		background: url('./assets/images/hero-image-md.webp');
 		background-size: cover;
 		background-position: center;
 		background-repeat: no-repeat;
@@ -495,7 +495,7 @@ footer h3 {
 		max-inline-size: 1140px;
 	}
 	#hero {
-		background: url('/assets/images/hero-image-lg.webp');
+		background: url('./assets/images/hero-image-lg.webp');
 		background-size: cover;
 		background-position: center;
 		background-repeat: no-repeat;

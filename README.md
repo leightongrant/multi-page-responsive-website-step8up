@@ -1,12 +1,16 @@
 # multi-page-responsive-website
 
-## Multi‑page Responsive Website
+A small multi-page, responsive website built to match a provided wireframe. The project demonstrates responsive layout, semantic HTML, modular CSS, and simple client-side JavaScript for small interactions.
+
+## Screenshot
+
+![Site preview](assets/images/screenshot.webp)
+
+# multi-page-responsive-website
 
 A small multi-page, responsive website built to match a provided wireframe. The project demonstrates responsive layout, semantic HTML, modular CSS, and simple client-side JavaScript for small interactions.
 
-## Preview
-
-![Site preview](assets/images/screenshot.webp)
+[![Live demo](https://img.shields.io/badge/Live%20Demo-View-brightgreen?style=for-the-badge)](https://leightongrant.github.io/multi-page-responsive-website-step8up/)
 
 ## Features
 
