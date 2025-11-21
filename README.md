@@ -1,16 +1,12 @@
 # multi-page-responsive-website
 
+[![Live demo](https://img.shields.io/badge/Live%20Demo-View-brightgreen?style=for-the-badge)](https://leightongrant.github.io/multi-page-responsive-website-step8up/)
+
 A small multi-page, responsive website built to match a provided wireframe. The project demonstrates responsive layout, semantic HTML, modular CSS, and simple client-side JavaScript for small interactions.
 
 ## Screenshot
 
-![Site preview](assets/images/screenshot.webp)
-
-# multi-page-responsive-website
-
-A small multi-page, responsive website built to match a provided wireframe. The project demonstrates responsive layout, semantic HTML, modular CSS, and simple client-side JavaScript for small interactions.
-
-[![Live demo](https://img.shields.io/badge/Live%20Demo-View-brightgreen?style=for-the-badge)](https://leightongrant.github.io/multi-page-responsive-website-step8up/)
+![Site preview](https://raw.githubusercontent.com/leightongrant/multi-page-responsive-website-step8up/main/assets/images/screenshot.webp)
 
 ## Features
 
@@ -25,7 +21,6 @@ A small multi-page, responsive website built to match a provided wireframe. The 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white&style=for-the-badge)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white&style=for-the-badge)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=for-the-badge)
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)
 
 -   HTML5
 -   CSS3 (responsive layouts, Flexbox, Grid)
@@ -59,5 +54,7 @@ Small improvements are welcome (fixes, accessibility, small UI tweaks). Please o
 ## License
 
 This project is licensed under the MIT License — see the `LICENSE` file for details.
+
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)
 
 ---
